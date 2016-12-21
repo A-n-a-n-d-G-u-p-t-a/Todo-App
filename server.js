@@ -52,7 +52,7 @@ app.post('/api/todos', function(request, response) {
     done: false
   }, function(err, todo) {
     if (err) {
-      response.sent(err);
+      response.send(err);
     }
     //get and return all the todo as soon as you create one
     Todo.find(function(err, todos) {
