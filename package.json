@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Simple todo application.",
   "main": "server.js",
-  "author": "Anand Gupta",
+  "author": "Sheetal",
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.13.4",
